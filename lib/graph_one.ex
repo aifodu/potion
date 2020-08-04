@@ -17,5 +17,3 @@ defmodule GraphOne do
             |> List.flatten
     end
 end
-
-## dag = [a: {:b, :c}, b: {:c, :d}, c: {:e}, d: {:e}, e: {}]
